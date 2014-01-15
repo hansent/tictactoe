@@ -1,0 +1,27 @@
+#tictactoe {
+    max-width: 600px;
+    margin: auto;
+}
+div.game-cell {
+    position: relative;
+    background-color: #ccc;
+    border: black 1px solid;
+    padding: 0;
+}
+div.owned-by-X {
+    background-color: #f00;
+}
+div.owned-by-O {
+    background-color: #0f0;
+}
+div.marked {
+    border: 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -.8em;
+    font-size: 4em;
+    font-weight: 600;
+}
