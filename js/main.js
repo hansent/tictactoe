@@ -3,13 +3,14 @@ player2 = "O";
 
 current_player = player1;
 
+
+
 function switch_player() {
-    // this should mae for some interresting 
-    // game dynamics...
-    if (Math.random() < 0.5) {
-        current_player = player1;
-    } else {
+    //switch back and forth
+    if (current_player == player1) {
         current_player = player2;
+    } else {
+        current_player = player1;
     }
 }
 
@@ -44,6 +45,10 @@ function congratulate_winner() {
 function show_invalid_move_message() {
     alert("good job!");
 }
+
+
+
+
 
 $("#tictactoe .row div").on("click", function () {
     var cell = this;

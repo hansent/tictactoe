@@ -14,14 +14,3 @@ div.owned-by-X {
 div.owned-by-O {
     background-color: #0f0;
 }
-div.marked {
-    border: 0;
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    margin-top: -.8em;
-    font-size: 4em;
-    font-weight: 600;
-}
